@@ -1,0 +1,3 @@
+add_executable(FileTracker_tests FileTracker_tests.cpp)
+target_link_libraries(FileTracker_tests gtest gtest_main FileTracker)
+gtest_discover_tests(FileTracker_tests)
